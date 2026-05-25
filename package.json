@@ -6,10 +6,10 @@
   "homepage": "https://www.oraeproducts.com/savon",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@11.3.0",
   "engines": {
     "node": ">=22.0.0",
-    "pnpm": ">=11.0.0",
+    "pnpm": ">=11.3.0",
     "npm": "please use pnpm"
   },
   "scripts": {
