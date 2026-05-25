@@ -1,12 +1,36 @@
 {
-  "name": "your-project-name",
+  "name": "oraeproducts",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+  "description": "Site officiel ORAE - Savon liquide, Lomé, Togo",
+  "author": "oraecontact-stack",
+  "homepage": "https://www.oraeproducts.com/savon",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.10.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=11.0.0",
+    "npm": "please use pnpm"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
 }
