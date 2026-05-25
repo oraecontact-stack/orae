@@ -1,0 +1,2 @@
+allow-build-scripts[]=@biomejs/biome
+allow-build-scripts[]=esbuild
