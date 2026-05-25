@@ -1,4 +1,2 @@
 auto-install-peers=true
 ignore-scripts=false
-allow-build-scripts[]=@biomejs/biome
-allow-build-scripts[]=esbuild
