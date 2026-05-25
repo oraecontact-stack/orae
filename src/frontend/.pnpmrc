@@ -1,3 +1,4 @@
 auto-install-peers=true
 ignore-scripts=false
-run-scripts=["@biomejs/biome", "esbuild"]
+node-linker=hoisted
+public-hoist-pattern[]=*esbuild*
